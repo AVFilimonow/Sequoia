@@ -1,0 +1,83 @@
+.header {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    margin: 0 30px;
+}
+.header__logo {
+        
+}
+.header__menu {
+    
+    font-size: 1.2rem;
+}
+.menu__item {
+    font-family: Halvar Breitschrift, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 1rem;
+}
+.menu__item a {
+    text-decoration:none;
+    color: #1D1D1D;
+}
+.menu__item a:hover {
+    color: #797979;
+}
+.header__menu__icon {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu__title {
+     color: #1D1D1D;
+     line-height: 100%;
+     margin-right: 10px;
+}
+.menu__icon {
+    padding-top: 5px;
+}
+.header__block {
+    display: flex;
+    justify-content:left;
+    margin-top: 140px;
+}
+.header__about {
+    
+}
+.header__title {
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.header__button{
+    width: 235px;
+    height: 56px;
+    background: #2E4ADF;
+    color: #fff;
+    margin-top: 40px;
+}
+.header__button:hover{
+    
+    background: rgb(102, 120, 223);
+  
+}
+.header__image {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.header__image img {
+    display: block;
+    margin: 0 auto;
+    width: 1585px;
+    height: 850px;
+}

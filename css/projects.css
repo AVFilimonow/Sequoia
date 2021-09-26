@@ -1,0 +1,117 @@
+.projects {
+    display: flex;
+    margin: 40px 0;
+}
+.projects__about {
+    width: 100px;
+}
+.about {
+}
+.projects__title {
+    width: 50%;
+    margin-left: 200px;
+}
+.title {
+}
+.projects_info {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.projects__video {
+}
+.projects__more {
+    margin-left: 2rem;
+    width: 600px;
+}
+.projects__more span{
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.projects__more a{
+  text-decoration: underline;
+  color: black;
+  
+}
+.projects__more a:hover{
+  text-decoration: none;
+  color: #797979;
+}
+.projects__list {
+    display: flex;
+    justify-content: left;
+}
+.projects__menu {
+     font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 30%;
+}
+.projects__menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects__menu a:hover {
+    text-decoration: underline;
+    color: #797979;
+}
+.projects__menu li {
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.projects__items {
+    width: 40%;
+    margin-left: 5rem;
+    
+}
+.project__item {
+    display: flex;
+    border-top: solid 2px black;
+    padding: 20px 20px;
+}
+.project__item_name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    width: 60%;
+    
+}
+.project__item_title {
+    font-family: Halvar Breitschrift, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 42px; 
+}
+.project__item_text {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 30px;
+    flex: 1 1 auto;
+}
+.project__item_link {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.project__item_link a {
+    color: black;
+}
+.project__item_link a:hover {
+    text-decoration: underline;
+    color: #797979;
+}
+.project__item_image {
+  width: 20%;
+}
+
+.project__item:last-child {
+    border-bottom: solid 2px black;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,127 @@
+.services {
+    display: flex;
+    margin: 40px 0;
+}
+.services__about {
+    width: 100px;
+}
+.services__title {
+    width: 50%;
+    margin-left: 200px;
+}
+.services_info {
+    margin: 5rem 0;
+    
+    display: flex;
+    justify-content: center;
+}
+.services__video {
+}
+.services__video2 h3 {
+    display: block;
+    margin-top: 0.5rem;
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+.services__video2 span {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color:grey;
+}
+.services__video2 {
+    margin-left: 1rem;
+}
+.services__more {
+    margin-left: 2rem;
+    width: 600px;
+}
+.services__more span{
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.services__more a{
+  text-decoration: underline;
+  color: black;
+  
+}
+.services__more a:hover{
+  text-decoration: none;
+  color: #797979;
+}
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    width: 70%;
+}
+.services__item {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.item__icon {
+   position: absolute;
+   right: 25px;
+   top: 25px; 
+}
+
+.services__item:nth-child(1) {
+    width: 400px;
+    background-color:#2E4ADF;
+    margin-right: 50px;
+}
+
+.services__item:nth-child(2) {
+    width: 400px;
+    background-color:#9E00FF;
+    margin-right: 50px;
+}
+.services__item:nth-child(3) {
+    width: 400px;
+    background-color:#01978C;
+    margin-right: 50px;
+}
+.services__item:nth-child(4) {
+    width: 400px;
+    background-color:#EDA335;
+}
+.item__number {
+    color:#fff;
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.item__title {
+    color:#fff;
+     font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.item__title a {
+    
+    color: #fff;
+}
+
+.item__title a:hover {
+text-decoration: underline;
+}
+
+.project__item:nth-last-child() {
+    margin-bottom: 30px;
+}

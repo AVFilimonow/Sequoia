@@ -1,0 +1,77 @@
+.achievement {
+    display: flex;
+    margin: 40px 0;
+}
+.achievement__about {
+    width: 100px;
+}
+.about {
+}
+.achievement__title {
+    width: 50%;
+    margin-left: 200px;
+}
+.title {
+}
+.achievement_info {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.achievement__video {
+}
+.achievement__more {
+    margin-left: 2rem;
+    width: 600px;
+}
+.achievement__more span{
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.achievment__digits {
+    display: flex;
+    justify-content: right;
+}
+.digits__items {
+    border-top: solid 1px black;
+    width: 400px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.digits__title {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 110%;
+    color: #2E4ADF;
+    margin-bottom: 50px;
+    
+}
+.digits__text {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.digits__line {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.achievment__clients {
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    
+}
+.client__item {
+    opacity: 50%;
+    padding: 5rem 2rem 2rem 2rem;
+}

@@ -1,0 +1,118 @@
+.taxes {
+    display: flex;
+    margin: 40px 0;
+}
+.taxes__about {
+    width: 100px;
+}
+.about {
+}
+.taxes__title {
+    width: 50%;
+    margin-left: 200px;
+}
+.title {
+}
+.taxes__block {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+.taxes__menu {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 30%;
+}
+.taxes__menu a {
+    text-decoration: none;
+    color: black;
+}
+.taxes__menu a:hover {
+    text-decoration: underline;
+    color: #797979;
+}
+.taxes__menu li {
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.taxes__table {
+    display: flex;
+    width: 40%;
+    margin-left: 5rem;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.table__title {
+    background: #2E4ADF;
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 30px;
+    padding: 20px;
+}
+.table__about {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+.taxes__text {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+.taxes__text1 {
+  flex: 1 1 auto; 
+}
+
+.taxes__text2 {
+    
+}
+.taxes__packs {
+    display: flex;
+    justify-content: left;
+    height: 7rem;
+   
+}
+.packs__item {
+    background: #1D1D1D;
+    padding: 10px 10px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.packs__item:nth-child(3) {
+    flex: 1 1 auto;
+    background: #0fa9b4;
+    
+}
+.packs__item:nth-child(2) {
+    flex: 1 1 auto;
+    background: #2E4ADF;
+   
+}
+
+.item__name {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    color: #fff;
+}
+.item__price {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    }
